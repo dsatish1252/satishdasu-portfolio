@@ -24,7 +24,7 @@ html{
 }
 
 body{
-    background: linear-gradient(45deg, #ff004f, #292929, #121212);
+    background: url(images/main-background.svg) no-repeat center center fixed;
     color: #fff;
     background-size: cover;
     background-attachment: fixed;
@@ -105,7 +105,7 @@ nav ul {
 /* -----------------------About Section----------------- */
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #fff;
     background: none;
 }
 
@@ -165,7 +165,7 @@ nav ul {
 }
 
 .tab-links:hover{
-    color: #ff004f;
+    color: #fff;
 }
 
 .tab-links.active-link::after{
@@ -173,7 +173,7 @@ nav ul {
 
 }
 .tab-links.active-link{
-    color: #ff004f;
+    color: #fff;
 }
 
 .tab-contents ul li{
@@ -182,8 +182,11 @@ nav ul {
 }
 
 .tab-contents ul li span{
-    color: #b54769;
+    color: #fff;
     font-size: 20px;
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    text-decoration-color: #ff004f;
 }
 
 .about-col-2 p{
@@ -376,10 +379,10 @@ nav ul {
 
 .btn2 {
     display: block;
-    margin: 50px 0;
+    margin-bottom: 150px;
     width: fit-content;
     background:transparent;
-    border: 1px solid #ff004f;
+    border: 1px solid #fff;
     padding: 14px 30px;
     border-radius: 6px;
     font-size: 15px;
