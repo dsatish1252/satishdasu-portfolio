@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: linear-gradient(45deg, #ff004f, #292929, #121212);
+    background: url(images/main-background.svg) no-repeat center center fixed;
     color: #fff;
     background-size: cover;
     background-attachment: fixed;
